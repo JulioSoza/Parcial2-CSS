@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+}
+
+#banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#servicios, #empresa, #mapa, #testimonios, #contacto {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.servicios-grid, .testimonios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.servicio, .testimonio {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+#mapa iframe {
+    width: 100%;
+    height: 450px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form input, form textarea, form button {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .footer-descripcion, footer .footer-menu, footer .footer-contacto {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+footer .footer-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+footer .footer-menu ul li {
+    margin: 0 1rem;
+}
+
+footer .footer-menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .redes-sociales a {
+    color: white;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
